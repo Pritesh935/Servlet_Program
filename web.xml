@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>java5DateServlet</servlet-name>
+        <servlet-class>com.nit.pc.servlets.CurrentTimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>java5DateServlet</servlet-name>
+        <url-pattern>/j5ds</url-pattern>
+    </servlet-mapping>
+</web-app>
